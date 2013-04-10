@@ -1,0 +1,20 @@
+name = Rubik
+description = Clean admin theme.
+base theme = tao
+core = 7.x
+engine = phptemplate
+
+regions[content] = Content
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+
+scripts[] = js/rubik.js
+stylesheets[screen][] = styles/core.css
+stylesheets[screen][] = styles/icons.css
+stylesheets[screen][] = styles/style.css
+stylesheets[print][] = styles/print.css
+
+; Support shortcut module links
+settings[shortcut_module_link] = 1
+

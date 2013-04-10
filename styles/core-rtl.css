@@ -1,0 +1,124 @@
+/**
+ * Generic ============================================================
+ */
+/* line 6, ../sass/core-rtl.scss */
+.page-content dl dd,
+.page-content dl dl {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+/**
+ * Pagers =============================================================
+ */
+/* line 14, ../sass/core-rtl.scss */
+.pager ul.pager-list {
+  float: right;
+}
+
+/* line 15, ../sass/core-rtl.scss */
+.pager ul.pager-links {
+  float: left;
+}
+
+/**
+ * Menus, lists =======================================================
+ */
+/* line 20, ../sass/core-rtl.scss */
+.admin-list li a span.icon {
+  left: auto;
+  right: 10px;
+}
+
+/* line 26, ../sass/core-rtl.scss */
+.node-type-list li,
+.admin-list li {
+  padding: 10px 50px 9px 5px;
+}
+
+/**
+ * Tables =============================================================
+ */
+/* line 31, ../sass/core-rtl.scss */
+table th {
+  text-align: right;
+}
+
+/* line 32, ../sass/core-rtl.scss */
+table td.permission {
+  padding-right: 19px;
+}
+
+/**
+ * Form layout: Default ===============================================
+ */
+/* line 37, ../sass/core-rtl.scss */
+.form-layout-default {
+  background-position: 35% 0%;
+}
+
+/* line 39, ../sass/core-rtl.scss */
+.column-main {
+  float: right;
+}
+
+/* line 41, ../sass/core-rtl.scss */
+.column-main .column-wrapper {
+  padding-left: 10px;
+  padding-right: 0px;
+}
+
+/* line 46, ../sass/core-rtl.scss */
+.column-side {
+  float: left;
+}
+
+/* line 48, ../sass/core-rtl.scss */
+.column-side .column-wrapper {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+
+/**
+ * Forms ==============================================================
+ */
+/* line 56, ../sass/core-rtl.scss */
+.page-content .form-item .description {
+  left: -15px;
+  right: auto;
+}
+
+/* line 61, ../sass/core-rtl.scss */
+.collapsible .fieldset-title span.icon {
+  left: auto;
+  right: -20px;
+  background-image: url(images/sprite-rtl.png);
+}
+
+/* line 67, ../sass/core-rtl.scss */
+html.js input.form-autocomplete {
+  background-position: 2px 7px;
+}
+
+/**
+ * Help pages =========================================================
+ */
+/* line 72, ../sass/core-rtl.scss */
+.help-items {
+  float: right;
+}
+
+/**
+ * Admin toolbar ======================================================
+ */
+/* line 77, ../sass/core-rtl.scss */
+body.rubik #admin-toolbar a.menu-hover span.menu-description {
+  padding-left: 0px;
+  padding-right: 50px;
+}
+
+/* line 82, ../sass/core-rtl.scss */
+body.rubik #admin-toolbar a.menu-hover span.menu-description span.icon {
+  left: auto;
+  right: 10px;
+}
