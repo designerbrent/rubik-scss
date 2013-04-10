@@ -25,116 +25,106 @@
   z-index: 1;
 }
 
-/* line 24, ../sass/views-admin.rubik.scss */
+/* line 25, ../sass/views-admin.rubik.scss */
 #views-ui-edit-form div#edit-actions.form-actions.form-wrapper {
   float: right;
 }
-
 /* line 28, ../sass/views-admin.rubik.scss */
 #views-ui-edit-form div h1.unit-title.clearfix {
   clear: both;
   float: left;
 }
 
-/* line 33, ../sass/views-admin.rubik.scss */
+/* line 34, ../sass/views-admin.rubik.scss */
 #edit-options .collapsible {
   float: none;
   width: 100%;
 }
 
-/* line 38, ../sass/views-admin.rubik.scss */
+/* line 39, ../sass/views-admin.rubik.scss */
 .views-displays {
   clear: both;
 }
 
-/* line 42, ../sass/views-admin.rubik.scss */
+/* line 43, ../sass/views-admin.rubik.scss */
 .views-display-setting .label {
   margin-right: 3pt;
   /* LTR */
 }
 
-/* line 46, ../sass/views-admin.rubik.scss */
+/* line 48, ../sass/views-admin.rubik.scss */
 .views-admin a:hover {
   text-decoration: none;
 }
 
-/* line 50, ../sass/views-admin.rubik.scss */
+/* line 52, ../sass/views-admin.rubik.scss */
 .views-attachment .options-set label {
   font-weight: bold;
 }
 
-/* line 54, ../sass/views-admin.rubik.scss */
+/* line 56, ../sass/views-admin.rubik.scss */
 .views-display-setting .views-ajax-link {
   margin-left: 0.2083em;
   margin-right: 0.2083em;
 }
 
 /* Hide 'remove' checkboxes. This might be scoped too widely. */
-/* line 60, ../sass/views-admin.rubik.scss */
+/* line 63, ../sass/views-admin.rubik.scss */
 [class*="form-type-checkbox"][class*="remove"] {
   display: none;
 }
 
-/* line 64, ../sass/views-admin.rubik.scss */
+/* line 68, ../sass/views-admin.rubik.scss */
 .views-ui-display-tab-bucket .views-display-setting {
   color: #666666;
   font-size: 12px;
   padding-bottom: 2px;
 }
-
-/* line 74, ../sass/views-admin.rubik.scss */
-.views-ui-display-tab-bucket h1,
-.views-ui-display-tab-bucket h2,
-.views-ui-display-tab-bucket h3,
-.views-ui-display-tab-bucket h4,
-.views-ui-display-tab-bucket h5 {
+/* line 73, ../sass/views-admin.rubik.scss */
+.views-ui-display-tab-bucket h1, .views-ui-display-tab-bucket h2, .views-ui-display-tab-bucket h3, .views-ui-display-tab-bucket h4, .views-ui-display-tab-bucket h5 {
   margin-bottom: 0;
   margin-top: 0;
 }
-
-/* line 79, ../sass/views-admin.rubik.scss */
+/* line 77, ../sass/views-admin.rubik.scss */
 .views-ui-display-tab-bucket.pager {
   height: auto;
   margin: 0;
 }
-
-/* line 85, ../sass/views-admin.rubik.scss */
-.views-ui-display-tab-bucket.pager span,
+/* line 80, ../sass/views-admin.rubik.scss */
+.views-ui-display-tab-bucket.pager span {
+  padding: 0 15px;
+}
+/* line 83, ../sass/views-admin.rubik.scss */
 .views-ui-display-tab-bucket.pager a {
   padding: 0 15px;
 }
-
-/* line 89, ../sass/views-admin.rubik.scss */
+/* line 85, ../sass/views-admin.rubik.scss */
 .views-ui-display-tab-bucket.pager a span {
   color: #0074BD;
 }
 
-/* line 93, ../sass/views-admin.rubik.scss */
+/* line 92, ../sass/views-admin.rubik.scss */
 .ctools-button input {
   box-shadow: none;
 }
 
-/* line 97, ../sass/views-admin.rubik.scss */
+/* line 96, ../sass/views-admin.rubik.scss */
 .views-displays .ctools-dropbutton-processed {
   right: 0;
 }
 
-/* line 101, ../sass/views-admin.rubik.scss */
+/* line 100, ../sass/views-admin.rubik.scss */
 .views-display-top .ctools-button {
   z-index: 1;
 }
 
-/* line 105, ../sass/views-admin.rubik.scss */
+/* line 104, ../sass/views-admin.rubik.scss */
 #edit-display-settings-main {
   margin-top: 15px;
 }
 
-/* line 113, ../sass/views-admin.rubik.scss */
-input.form-autocomplete,
-input.form-text,
-input.form-file,
-textarea.form-textarea,
-select.form-select {
+/* line 109, ../sass/views-admin.rubik.scss */
+input.form-autocomplete, input.form-text, input.form-file {
   padding: 2px;
   border: 1px solid #ccc;
   border-top-color: #999;
@@ -143,58 +133,67 @@ select.form-select {
   width: auto;
 }
 
-/* line 125, ../sass/views-admin.rubik.scss */
-input.form-text:focus,
-input.form-file:focus,
-textarea.form-textarea:focus,
-select.form-select:focus {
+/* line 119, ../sass/views-admin.rubik.scss */
+textarea.form-textarea, select.form-select {
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-top-color: #999;
+  background: #fff;
+  color: #333;
+  width: auto;
+}
+
+/* line 129, ../sass/views-admin.rubik.scss */
+input.form-text:focus, input.form-file:focus {
   color: #000;
   border-color: #ace;
 }
 
-/* line 130, ../sass/views-admin.rubik.scss */
+/* line 135, ../sass/views-admin.rubik.scss */
+textarea.form-textarea:focus, select.form-select:focus {
+  color: #000;
+  border-color: #ace;
+}
+
+/* line 141, ../sass/views-admin.rubik.scss */
 #edit-display-preview-controls .form-type-textfield label {
   display: inline-block;
   font-weight: normal;
   height: inherit;
   margin-right: 0.75em;
 }
-
-/* line 137, ../sass/views-admin.rubik.scss */
+/* line 147, ../sass/views-admin.rubik.scss */
 #edit-display-preview-controls > .form-type-textfield {
   margin-top: 6px;
 }
-
-/* line 142, ../sass/views-admin.rubik.scss */
-#edit-display-preview-controls .arguments-preview,
-#edit-display-preview-controls .form-type-textfield {
+/* line 150, ../sass/views-admin.rubik.scss */
+#edit-display-preview-controls .arguments-preview, #edit-display-preview-controls .form-type-textfield {
   margin-left: 14px;
 }
-
-/* line 147, ../sass/views-admin.rubik.scss */
-#edit-display-preview-controls > div,
-#edit-display-preview-controls > input {
+/* line 154, ../sass/views-admin.rubik.scss */
+#edit-display-preview-controls > div, #edit-display-preview-controls > input {
   float: left;
 }
-
-/* line 151, ../sass/views-admin.rubik.scss */
+/* line 158, ../sass/views-admin.rubik.scss */
 #edit-display-preview-controls .form-item {
   margin-bottom: 0;
 }
 
-/* line 154, ../sass/views-admin.rubik.scss */
+/* line 163, ../sass/views-admin.rubik.scss */
 #edit-options-exception.collapsible {
   margin-top: 0;
 }
 
-/* line 159, ../sass/views-admin.rubik.scss */
-.views-ui-dialog fieldset,
-.views-ui-dialog fieldset.collapsed,
-.views-ui-dialog fieldset.collapsible {
+/* line 167, ../sass/views-admin.rubik.scss */
+.views-ui-dialog fieldset {
+  padding-top: 0;
+}
+/* line 169, ../sass/views-admin.rubik.scss */
+.views-ui-dialog fieldset.collapsed, .views-ui-dialog fieldset.collapsible {
   padding-top: 0;
 }
 
-/* line 162, ../sass/views-admin.rubik.scss */
+/* line 174, ../sass/views-admin.rubik.scss */
 #edit-options-default-action {
   float: none;
   margin-bottom: 10px;

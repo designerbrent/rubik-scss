@@ -14,20 +14,21 @@
 }
 
 #views-ui-edit-form div div.views-displays div.views-display-top ul.tabs.secondary.views-ui-render-add-view-button-processed-processed {
-   position: relative;
+  position: relative;
 }
 
 #ctools-button-9 {
-   z-index: 1;
+  z-index: 1;
 }
 
-#views-ui-edit-form div#edit-actions.form-actions.form-wrapper {
-   float: right;
-}
-
-#views-ui-edit-form div h1.unit-title.clearfix {
-   clear: both;
-   float: left;
+#views-ui-edit-form div {
+  &#edit-actions.form-actions.form-wrapper {
+    float: right;
+  }
+  h1.unit-title.clearfix {
+    clear: both;
+    float: left;
+  }
 }
 
 #edit-options .collapsible {
@@ -36,15 +37,16 @@
 }
 
 .views-displays {
-   clear: both;
+  clear: both;
 }
 
 .views-display-setting .label {
-  margin-right: 3pt; /* LTR */
+  margin-right: 3pt;
+  /* LTR */
 }
 
 .views-admin a:hover {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .views-attachment .options-set label {
@@ -57,60 +59,64 @@
 }
 
 /* Hide 'remove' checkboxes. This might be scoped too widely. */
+
 [class*="form-type-checkbox"][class*="remove"] {
   display: none;
 }
 
-.views-ui-display-tab-bucket .views-display-setting {
-  color: #666666;
-  font-size: 12px;
-  padding-bottom: 2px;
-}
-
-.views-ui-display-tab-bucket h1,
-.views-ui-display-tab-bucket h2,
-.views-ui-display-tab-bucket h3,
-.views-ui-display-tab-bucket h4,
-.views-ui-display-tab-bucket h5 {
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.views-ui-display-tab-bucket.pager {
-   height:auto;
-   margin:0;
-}
-
-.views-ui-display-tab-bucket.pager span,
-.views-ui-display-tab-bucket.pager a {
-   padding: 0 15px;
-}
-
-.views-ui-display-tab-bucket.pager a span {
-   color: #0074BD;
+.views-ui-display-tab-bucket {
+  .views-display-setting {
+    color: #666666;
+    font-size: 12px;
+    padding-bottom: 2px;
+  }
+  h1, h2, h3, h4, h5 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  &.pager {
+    height: auto;
+    margin: 0;
+    span {
+      padding: 0 15px;
+    }
+    a {
+      padding: 0 15px;
+      span {
+        color: #0074BD;
+      }
+    }
+  }
 }
 
 .ctools-button input {
-   box-shadow:none;
+  box-shadow: none;
 }
 
 .views-displays .ctools-dropbutton-processed {
-   right:0;
+  right: 0;
 }
 
 .views-display-top .ctools-button {
-   z-index:1;
+  z-index: 1;
 }
 
 #edit-display-settings-main {
   margin-top: 15px;
 }
 
-input.form-autocomplete,
-input.form-text,
-input.form-file,
-textarea.form-textarea,
-select.form-select {
+input {
+  &.form-autocomplete, &.form-text, &.form-file {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-top-color: #999;
+    background: #fff;
+    color: #333;
+    width: auto;
+  }
+}
+
+textarea.form-textarea, select.form-select {
   padding: 2px;
   border: 1px solid #ccc;
   border-top-color: #999;
@@ -119,46 +125,52 @@ select.form-select {
   width: auto;
 }
 
-input.form-text:focus,
-input.form-file:focus,
-textarea.form-textarea:focus,
-select.form-select:focus {
+input {
+  &.form-text:focus, &.form-file:focus {
+    color: #000;
+    border-color: #ace;
+  }
+}
+
+textarea.form-textarea:focus, select.form-select:focus {
   color: #000;
   border-color: #ace;
 }
 
-#edit-display-preview-controls .form-type-textfield label {
-  display: inline-block;
-  font-weight: normal;
-  height: inherit;
-  margin-right: 0.75em;
+#edit-display-preview-controls {
+  .form-type-textfield label {
+    display: inline-block;
+    font-weight: normal;
+    height: inherit;
+    margin-right: 0.75em;
+  }
+  > .form-type-textfield {
+    margin-top: 6px;
+  }
+  .arguments-preview, .form-type-textfield {
+    margin-left: 14px;
+  }
+  > {
+    div, input {
+      float: left;
+    }
+  }
+  .form-item {
+    margin-bottom: 0;
+  }
 }
 
-#edit-display-preview-controls > .form-type-textfield {
-   margin-top: 6px;
-}
-
-#edit-display-preview-controls .arguments-preview,
-#edit-display-preview-controls .form-type-textfield {
-  margin-left: 14px;
-}
-
-#edit-display-preview-controls > div,
-#edit-display-preview-controls > input {
-  float: left;
-}
-
-#edit-display-preview-controls .form-item {
-  margin-bottom: 0;
-}
 #edit-options-exception.collapsible {
-    margin-top: 0;
+  margin-top: 0;
 }
-.views-ui-dialog fieldset,
-.views-ui-dialog fieldset.collapsed,
-.views-ui-dialog fieldset.collapsible {
-    padding-top:0;
+
+.views-ui-dialog fieldset {
+  padding-top: 0;
+  &.collapsed, &.collapsible {
+    padding-top: 0;
+  }
 }
+
 #edit-options-default-action {
   float: none;
   margin-bottom: 10px;

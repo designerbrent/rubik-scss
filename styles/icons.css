@@ -1,51 +1,45 @@
 /**
  * Icons
  */
-/* line 10, ../sass/icons.scss */
-.help-content span.icon,
-.page-title span.icon,
-.admin-toolbar-menu span.icon,
-.menu span.icon,
-.admin-panel span.icon,
-.admin-list span.icon,
-.links span.icon {
+/* line 5, ../sass/icons.scss */
+.help-content span.icon, .page-title span.icon, .admin-toolbar-menu span.icon, .menu span.icon, .admin-panel span.icon, .admin-list span.icon, .links span.icon {
   width: 30px;
   height: 30px;
   display: block;
   background-color: transparent;
-  background-image: url(images/icons.png);
+  background-image: url(../images/icons.png);
   background-repeat: no-repeat;
 }
 
 /**
  * Create content
  */
-/* line 23, ../sass/icons.scss */
+/* line 18, ../sass/icons.scss */
 .path-node-add span.icon {
   background-position: 0px -240px;
 }
 
-/* line 24, ../sass/icons.scss */
+/* line 22, ../sass/icons.scss */
 .path-node-add-page span.icon {
   background-position: -30px -240px;
 }
 
-/* line 25, ../sass/icons.scss */
+/* line 26, ../sass/icons.scss */
 .path-node-add-forum span.icon {
   background-position: -60px -240px;
 }
 
-/* line 26, ../sass/icons.scss */
+/* line 30, ../sass/icons.scss */
 .path-node-add-blog span.icon {
   background-position: -90px -240px;
 }
 
-/* line 27, ../sass/icons.scss */
+/* line 34, ../sass/icons.scss */
 .path-node-add-story span.icon {
   background-position: -120px -240px;
 }
 
-/* line 28, ../sass/icons.scss */
+/* line 38, ../sass/icons.scss */
 .path-node-add-poll span.icon {
   background-position: -150px -240px;
 }
@@ -53,12 +47,12 @@
 /**
  * Admin
  */
-/* line 33, ../sass/icons.scss */
+/* line 46, ../sass/icons.scss */
 .path-admin span.icon {
   background-position: 0px 0px;
 }
 
-/* line 34, ../sass/icons.scss */
+/* line 50, ../sass/icons.scss */
 .path-admin- span.icon {
   background-position: -60px -150px;
 }
@@ -66,7 +60,7 @@
 /**
  * Appearance
  */
-/* line 39, ../sass/icons.scss */
+/* line 58, ../sass/icons.scss */
 .path-admin-appearance- span.icon {
   background-position: -120px -30px;
 }
@@ -74,7 +68,7 @@
 /**
  * Modules
  */
-/* line 44, ../sass/icons.scss */
+/* line 66, ../sass/icons.scss */
 .path-admin-modules- span.icon {
   background-position: -210px -30px;
 }
@@ -82,7 +76,7 @@
 /**
  * Help
  */
-/* line 49, ../sass/icons.scss */
+/* line 74, ../sass/icons.scss */
 .path-admin-help span.icon {
   background-position: -150px -120px;
 }
@@ -90,27 +84,27 @@
 /**
  * Content
  */
-/* line 54, ../sass/icons.scss */
+/* line 82, ../sass/icons.scss */
 .path-admin-content span.icon {
   background-position: -30px 0px;
 }
 
-/* line 55, ../sass/icons.scss */
+/* line 86, ../sass/icons.scss */
 .path-admin-content- span.icon {
   background-position: 0px -30px;
 }
 
-/* line 56, ../sass/icons.scss */
+/* line 90, ../sass/icons.scss */
 .path-admin-content-forum span.icon {
   background-position: -90px -120px;
 }
 
-/* line 57, ../sass/icons.scss */
+/* line 94, ../sass/icons.scss */
 .path-admin-content-book span.icon {
   background-position: -90px -60px;
 }
 
-/* line 58, ../sass/icons.scss */
+/* line 98, ../sass/icons.scss */
 .path-admin-content-comment span.icon {
   background-position: -90px -30px;
 }
@@ -118,42 +112,42 @@
 /**
  * Building
  */
-/* line 63, ../sass/icons.scss */
+/* line 106, ../sass/icons.scss */
 .path-admin-structure span.icon {
   background-position: -60px 0px;
 }
 
-/* line 64, ../sass/icons.scss */
+/* line 110, ../sass/icons.scss */
 .path-admin-structure- span.icon {
   background-position: -30px -150px;
 }
 
-/* line 65, ../sass/icons.scss */
+/* line 114, ../sass/icons.scss */
 .path-admin-structure-menu span.icon {
   background-position: -150px -30px;
 }
 
-/* line 66, ../sass/icons.scss */
+/* line 118, ../sass/icons.scss */
 .path-admin-structure-contact span.icon {
   background-position: -60px -90px;
 }
 
-/* line 67, ../sass/icons.scss */
+/* line 122, ../sass/icons.scss */
 .path-admin-structure-block span.icon {
   background-position: -180px -30px;
 }
 
-/* line 68, ../sass/icons.scss */
+/* line 126, ../sass/icons.scss */
 .path-admin-structure-types span.icon {
   background-position: -30px -30px;
 }
 
-/* line 69, ../sass/icons.scss */
+/* line 130, ../sass/icons.scss */
 .path-admin-structure-taxonomy span.icon {
   background-position: -60px -30px;
 }
 
-/* line 70, ../sass/icons.scss */
+/* line 134, ../sass/icons.scss */
 .path-admin-structure-trigger span.icon {
   background-position: -180px -60px;
 }
@@ -161,22 +155,22 @@
 /**
  * User
  */
-/* line 75, ../sass/icons.scss */
+/* line 142, ../sass/icons.scss */
 .path-admin-people span.icon {
   background-position: -90px 0px;
 }
 
-/* line 76, ../sass/icons.scss */
+/* line 146, ../sass/icons.scss */
 .path-admin-people- span.icon {
   background-position: -210px -90px;
 }
 
-/* line 77, ../sass/icons.scss */
+/* line 150, ../sass/icons.scss */
 .path-admin-people-permissions span.icon {
   background-position: -30px -90px;
 }
 
-/* line 78, ../sass/icons.scss */
+/* line 154, ../sass/icons.scss */
 .path-admin-people-permissions-roles span.icon {
   background-position: -30px -120px;
 }
@@ -184,67 +178,67 @@
 /**
  * Reports
  */
-/* line 83, ../sass/icons.scss */
+/* line 162, ../sass/icons.scss */
 .path-admin-reports span.icon {
   background-position: -120px 0px;
 }
 
-/* line 84, ../sass/icons.scss */
+/* line 166, ../sass/icons.scss */
 .path-admin-reports- span.icon {
   background-position: 0px -150px;
 }
 
-/* line 85, ../sass/icons.scss */
+/* line 170, ../sass/icons.scss */
 .path-admin-reports-dblog span.icon {
   background-position: -210px -420px;
 }
 
-/* line 86, ../sass/icons.scss */
+/* line 174, ../sass/icons.scss */
 .path-admin-reports-hits span.icon {
   background-position: -120px -420px;
 }
 
-/* line 87, ../sass/icons.scss */
+/* line 178, ../sass/icons.scss */
 .path-admin-reports-search span.icon {
   background-position: 0px -420px;
 }
 
-/* line 88, ../sass/icons.scss */
+/* line 182, ../sass/icons.scss */
 .path-admin-reports-access-denied span.icon {
   background-position: -180px -420px;
 }
 
-/* line 89, ../sass/icons.scss */
+/* line 186, ../sass/icons.scss */
 .path-admin-reports-page-not-found span.icon {
   background-position: -90px -420px;
 }
 
-/* line 90, ../sass/icons.scss */
+/* line 190, ../sass/icons.scss */
 .path-admin-reports-referrers span.icon {
   background-position: -150px -420px;
 }
 
-/* line 91, ../sass/icons.scss */
+/* line 194, ../sass/icons.scss */
 .path-admin-reports-pages span.icon {
   background-position: -30px -240px;
 }
 
-/* line 92, ../sass/icons.scss */
+/* line 198, ../sass/icons.scss */
 .path-admin-reports-visitors span.icon {
   background-position: -60px -420px;
 }
 
-/* line 93, ../sass/icons.scss */
+/* line 202, ../sass/icons.scss */
 .path-admin-reports-settings span.icon {
   background-position: -90px -330px;
 }
 
-/* line 94, ../sass/icons.scss */
+/* line 206, ../sass/icons.scss */
 .path-admin-reports-updates span.icon {
   background-position: -150px -60px;
 }
 
-/* line 95, ../sass/icons.scss */
+/* line 210, ../sass/icons.scss */
 .path-admin-reports-status span.icon {
   background-position: -60px -60px;
 }
@@ -252,211 +246,209 @@
 /**
  * Configuration
  */
-/* line 100, ../sass/icons.scss */
+/* line 218, ../sass/icons.scss */
 .path-admin-config span.icon {
   background-position: -150px 0px;
 }
 
-/* line 101, ../sass/icons.scss */
+/* line 222, ../sass/icons.scss */
 .path-admin-config- span.icon {
   background-position: -210px -120px;
 }
 
-/* line 102, ../sass/icons.scss */
+/* line 226, ../sass/icons.scss */
 .path-admin-config-people- span.icon {
   background-position: 0px -180px;
 }
 
-/* line 103, ../sass/icons.scss */
+/* line 230, ../sass/icons.scss */
 .path-admin-config-people-accounts span.icon {
   background-position: -60px -120px;
 }
 
-/* line 104, ../sass/icons.scss */
+/* line 234, ../sass/icons.scss */
 .path-admin-config-people-ip-blocking span.icon {
   background-position: 0px -120px;
 }
 
-/* line 106, ../sass/icons.scss */
+/* line 238, ../sass/icons.scss */
 .path-admin-config-content- span.icon {
   background-position: -60px -180px;
 }
 
-/* line 107, ../sass/icons.scss */
+/* line 242, ../sass/icons.scss */
 .path-admin-config-content-formats span.icon {
   background-position: -210px -60px;
 }
 
-/* line 109, ../sass/icons.scss */
+/* line 246, ../sass/icons.scss */
 .path-admin-config-regional- span.icon {
   background-position: -210px -180px;
 }
 
-/* line 110, ../sass/icons.scss */
+/* line 250, ../sass/icons.scss */
 .path-admin-config-regional-settings span.icon {
   background-position: -60px -390px;
 }
 
-/* line 111, ../sass/icons.scss */
+/* line 254, ../sass/icons.scss */
 .path-admin-config-regional-date-time span.icon {
   background-position: -150px -360px;
 }
 
-/* line 112, ../sass/icons.scss */
+/* line 258, ../sass/icons.scss */
 .path-admin-config-regional-language span.icon {
   background-position: -60px -330px;
 }
 
-/* line 113, ../sass/icons.scss */
+/* line 262, ../sass/icons.scss */
 .path-admin-config-regional-translate span.icon {
   background-position: 0px -90px;
 }
 
-/* line 115, ../sass/icons.scss */
+/* line 266, ../sass/icons.scss */
 .path-admin-config-system- span.icon {
   background-position: -30px -180px;
 }
 
-/* line 116, ../sass/icons.scss */
+/* line 270, ../sass/icons.scss */
 .path-admin-config-system-site-information span.icon {
   background-position: -120px -330px;
 }
 
-/* line 117, ../sass/icons.scss */
+/* line 274, ../sass/icons.scss */
 .path-admin-config-system-actions span.icon {
   background-position: -180px -60px;
 }
 
-/* line 118, ../sass/icons.scss */
+/* line 278, ../sass/icons.scss */
 .path-admin-config-system-statistics span.icon {
   background-position: -90px -330px;
 }
 
-/* line 119, ../sass/icons.scss */
+/* line 282, ../sass/icons.scss */
 .path-admin-config-system-cron span.icon {
   background-position: -30px -390px;
 }
 
-/* line 121, ../sass/icons.scss */
+/* line 286, ../sass/icons.scss */
 .path-admin-config-search- span.icon {
   background-position: -180px -180px;
 }
 
-/* line 122, ../sass/icons.scss */
+/* line 290, ../sass/icons.scss */
 .path-admin-config-search-path span.icon {
   background-position: -120px -90px;
 }
 
-/* line 123, ../sass/icons.scss */
+/* line 294, ../sass/icons.scss */
 .path-admin-config-search-clean-urls span.icon {
   background-position: -60px -360px;
 }
 
-/* line 124, ../sass/icons.scss */
+/* line 298, ../sass/icons.scss */
 .path-admin-config-search-settings span.icon {
   background-position: -30px -60px;
 }
 
-/* line 126, ../sass/icons.scss */
+/* line 302, ../sass/icons.scss */
 .path-admin-config-services- span.icon {
   background-position: 0px -210px;
 }
 
-/* line 127, ../sass/icons.scss */
+/* line 306, ../sass/icons.scss */
 .path-admin-config-services-rss-publishing span.icon {
   background-position: -180px -330px;
 }
 
-/* line 128, ../sass/icons.scss */
+/* line 310, ../sass/icons.scss */
 .path-admin-config-services-aggregator span.icon {
   background-position: -120px -120px;
 }
 
-/* line 130, ../sass/icons.scss */
+/* line 314, ../sass/icons.scss */
 .path-admin-config-user-interface- span.icon {
   background-position: -90px -180px;
 }
 
-/* line 131, ../sass/icons.scss */
+/* line 318, ../sass/icons.scss */
 .path-admin-config-user-interface-shortcut span.icon {
   background-position: -180px -120px;
 }
 
-/* line 133, ../sass/icons.scss */
+/* line 322, ../sass/icons.scss */
 .path-admin-config-media- span.icon {
   background-position: -150px -180px;
 }
 
-/* line 134, ../sass/icons.scss */
+/* line 326, ../sass/icons.scss */
 .path-admin-config-media-file-system span.icon {
   background-position: -180px -360px;
 }
 
-/* line 135, ../sass/icons.scss */
+/* line 330, ../sass/icons.scss */
 .path-admin-config-media-image-styles span.icon {
   background-position: 0px -390px;
 }
 
-/* line 136, ../sass/icons.scss */
+/* line 334, ../sass/icons.scss */
 .path-admin-config-media-image-toolkit span.icon {
   background-position: -210px -330px;
 }
 
-/* line 138, ../sass/icons.scss */
+/* line 338, ../sass/icons.scss */
 .path-admin-config-development- span.icon {
   background-position: -120px -180px;
 }
 
-/* line 139, ../sass/icons.scss */
+/* line 342, ../sass/icons.scss */
 .path-admin-config-development-performance span.icon {
   background-position: 0px -60px;
 }
 
-/* line 140, ../sass/icons.scss */
+/* line 346, ../sass/icons.scss */
 .path-admin-config-development-maintenance span.icon {
   background-position: -180px -90px;
 }
 
-/* line 141, ../sass/icons.scss */
+/* line 350, ../sass/icons.scss */
 .path-admin-config-development-logging span.icon {
   background-position: -120px -60px;
 }
 
-/* line 143, ../sass/icons.scss */
+/* line 354, ../sass/icons.scss */
 .path-admin-config-workflow- span.icon {
   background-position: -30px -210px;
 }
 
 /* Contrib, @TODO */
-/* line 146, ../sass/icons.scss */
+/* line 360, ../sass/icons.scss */
 .path-admin-config-development-devel span.icon {
   background-position: -30px -330px;
 }
 
 /* Deprecated, @TODO */
-/* line 151, ../sass/icons.scss */
-.path-admin-settings-wysiwyg span.icon,
-.path-admin-settings-fckeditor span.icon,
-.path-admin-settings-tinymce span.icon {
+/* line 366, ../sass/icons.scss */
+.path-admin-settings-wysiwyg span.icon, .path-admin-settings-fckeditor span.icon, .path-admin-settings-tinymce span.icon {
   background-position: -150px -330px;
 }
 
-/* line 152, ../sass/icons.scss */
+/* line 370, ../sass/icons.scss */
 .path-admin-settings-uploads span.icon {
   background-position: -210px -360px;
 }
 
-/* line 153, ../sass/icons.scss */
+/* line 374, ../sass/icons.scss */
 .path-admin-settings-error-reporting span.icon {
   background-position: -90px -360px;
 }
 
-/* line 154, ../sass/icons.scss */
+/* line 378, ../sass/icons.scss */
 .path-admin-settings-blogapi span.icon {
   background-position: -30px -360px;
 }
 
-/* line 155, ../sass/icons.scss */
+/* line 382, ../sass/icons.scss */
 .path-admin-settings-throttle span.icon {
   background-position: -150px -90px;
 }

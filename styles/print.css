@@ -1,35 +1,32 @@
-/* line 14, ../sass/print.scss */
-#skip-to-nav,
-#navigation,
-#toolbar,
-.region-sidebar-first,
-.region-sidebar-second,
-.footer-region,
-.breadcrumb,
-div.tabs,
-.action-links,
-.links,
-.book-navigation,
-.forum-topic-navigation,
-.pager,
-.feed-icons {
+/* line 1, ../sass/print.scss */
+#skip-to-nav, #navigation, #toolbar, .region-sidebar-first, .region-sidebar-second, .footer-region, .breadcrumb, div.tabs, .action-links, .links, .book-navigation, .forum-topic-navigation, .pager, .feed-icons {
   visibility: hidden;
   display: none;
 }
 
-/* line 18, ../sass/print.scss */
+/* line 6, ../sass/print.scss */
 body {
   padding-top: 0 !important;
   margin: 20px;
 }
 
-/* line 22, ../sass/print.scss */
+/* line 11, ../sass/print.scss */
 table {
   border: 1px solid #333;
 }
 
-/* line 25, ../sass/print.scss */
-.field-label-inline .field-label, .field-label-inline .field-items, .field-label-inline .field-items .field-item {
+/* line 16, ../sass/print.scss */
+.field-label-inline .field-label {
+  float: none;
+  display: inline;
+}
+/* line 20, ../sass/print.scss */
+.field-label-inline .field-items {
+  float: none;
+  display: inline;
+}
+/* line 23, ../sass/print.scss */
+.field-label-inline .field-items .field-item {
   float: none;
   display: inline;
 }

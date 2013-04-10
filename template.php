@@ -4,7 +4,7 @@
  */
 function rubik_preprocess_html() {
   if (module_exists('views')) {
-    drupal_add_css(drupal_get_path('module', 'views') . '/css/views-admin.seven.css', 'theme');
+    drupal_add_css(drupal_get_path('module', 'views') . '/styles/views-admin.seven.css', 'theme');
   }
 }
 
@@ -14,14 +14,14 @@ function rubik_preprocess_html() {
  */
 function rubik_css_alter(&$css) {
   if (isset($css['modules/overlay/overlay-child.css'])) {
-    $css['modules/overlay/overlay-child.css']['data'] = drupal_get_path('theme', 'rubik') . '/overlay-child.css';
+    $css['modules/overlay/overlay-child.css']['data'] = drupal_get_path('theme', 'rubik') . '/styles/overlay-child.css';
   }
   if (isset($css['modules/shortcut/shortcut.css'])) {
-    $css['modules/shortcut/shortcut.css']['data'] = drupal_get_path('theme', 'rubik') . '/shortcut.css';
+    $css['modules/shortcut/shortcut.css']['data'] = drupal_get_path('theme', 'rubik') . '/styles/shortcut.css';
   }
   // This can be removed once http://drupal.org/node/1221560 is released
   if (isset($css['sites/all/modules/views/css/views-admin.rubik.css'])) {
-    $css['sites/all/modules/views/css/views-admin.rubik.css']['data'] = drupal_get_path('theme', 'rubik') . '/views-admin.rubik.css';
+    $css['sites/all/modules/views/css/views-admin.rubik.css']['data'] = drupal_get_path('theme', 'rubik') . '/styles/views-admin.rubik.css';
   }
 }
 
